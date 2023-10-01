@@ -29,7 +29,8 @@ nav,
 
 nav {
     display: flex;
-    justify-content: flex-end; /* Align items to the upper right */
+    justify-content: flex-end; 
+    
     align-items: center;
     height: 17vh;
 }
@@ -38,5 +39,21 @@ nav {
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem;
-    margin-left: auto; /* Push the navigation links to the right */
+    margin-left: auto; 
+    
+}
+.logo-text{
+    color:white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+a:hover{
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color:grey;
+
 }
