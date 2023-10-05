@@ -53,8 +53,7 @@ a:hover{
     text-decoration: underline;
     text-underline-offset: 1rem;
     text-decoration-color:grey;
-    transform: scale(1.1);
-    cursor: pointer;
+    
 }
 
 .logo{
@@ -64,4 +63,22 @@ a:hover{
 .logo:hover{
   cursor: pointer; 
     transform: scale(1.1);
+}
+
+#hamburger-nav{
+    display: none;
+}
+
+.hamburger-menu{
+    position: relative;
+    display: inline-block;
+}
+
+.hamburger.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
 }
