@@ -6,13 +6,9 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
-    <!-- Include any additional CSS or JavaScript files here -->
-</head>
 <body>
     <nav id="desktop-nav">
-        <div class="logo">
-            <span class="logo-text">Alvin M. Guatato</span>
-        </div>
+    
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#Experience">Experience</a></li>
@@ -22,12 +18,15 @@
     </nav>
 
     <nav id="hamburger-nav">
-        <div class="hamburger-menu" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+        <div class="logo">
+            <span class="logo-text">Alvin M. Guatato</span>
         </div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
         <ul class="menu-links">
             <li><a href="#about" onclick="toggleMenu()">About</a></li>
             <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
@@ -36,9 +35,7 @@
         </ul>
     </nav>
 
-    <!-- Content of your website goes here -->
-
-    <!-- JavaScript for menu toggling and other functionality -->
-    <script src="your-script.js"></script>
+   
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,8 +1,16 @@
 @media screen and (max-width: 1200px) {
+    /* Hide desktop navigation */
     #desktop-nav {
         display: none;
     }
+    
+    /* Display hamburger navigation */
     #hamburger-nav {
         display: flex;
+    }
+    
+    /* Hide navigation links inside the hamburger menu */
+    .menu-links {
+        display: none;
     }
 }
