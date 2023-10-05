@@ -28,9 +28,7 @@ nav,
 }
 
 nav {
-    display: flex;
-    justify-content: flex-end; 
-    
+    justify-content: space-around; 
     align-items: center;
     height: 17vh;
 }
@@ -55,5 +53,15 @@ a:hover{
     text-decoration: underline;
     text-underline-offset: 1rem;
     text-decoration-color:grey;
+    transform: scale(1.1);
+    cursor: pointer;
+}
 
+.logo{
+    font-size: 1.95rem;
+}
+
+.logo:hover{
+  cursor: pointer; 
+    transform: scale(1.1);
 }
