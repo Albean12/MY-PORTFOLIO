@@ -178,11 +178,14 @@ section {
   }
   
   .section__pic-container img {
-    width: 100%; 
+   width: 100%; /* Make the image fill the container */
     height: 100%;
-    object-fit: cover; 
+    transition: transform 0.5 ease; 
   }
-  
+  .section__pic-container:hover{
+    transform: scale(1.2); 
+    cursor: pointer;
+  }
   .section__text {
     text-align: center;
   }
@@ -216,5 +219,5 @@ section {
   }
 
   .title{
-   color: RED;
+   color: #BE263D;
   }
