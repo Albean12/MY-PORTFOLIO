@@ -183,7 +183,7 @@ section {
     transition: transform 0.50 ease; 
   }
   .section__pic-container:hover{
-    transform: scale(1.2); 
+    transform: scale(2.0); 
     cursor: pointer;
   }
   .section__text {
