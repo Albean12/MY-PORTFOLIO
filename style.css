@@ -166,12 +166,8 @@ section {
     align-items: center; 
     gap: 2rem; 
   }
-  .section__pic-container_about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
  
+
   .section__pic-container {
     display: flex;
     justify-content: center; 
@@ -284,6 +280,10 @@ section {
 
 #about {
   position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .about-container {
@@ -325,9 +325,13 @@ section {
   height: 400px;
   width: 400px;
 }
-
+.section_pic-container_about{
+  height: 400px;
+  width: 400px;
+}
 .text-container{
   display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 1rem; 
 }
+
