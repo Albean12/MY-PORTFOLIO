@@ -344,7 +344,13 @@ h2{
   color: #BE263D;
 }
 
-
+.arrow{
+  position: absolute;
+  top: 20px; 
+  right: 10px; 
+  padding: 10px; 
+  
+}
 /* Experience Section */
 
 #experience {
