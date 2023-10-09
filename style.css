@@ -166,6 +166,15 @@ section {
     align-items: center; 
     gap: 2rem; 
   }
+  .section_pic-container_about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
  
   .section__pic-container {
     display: flex;
@@ -279,6 +288,10 @@ section {
 
 #about {
   position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .about-container {
@@ -320,11 +333,12 @@ section {
   height: 400px;
   width: 400px;
 }
-
+.section_pic-container_about{
+  height: 400px;
+  width: 400px;
+}
 .text-container{
-  flex: 1; /* This makes the text-container take up the remaining space */
-  text-align: right; /* Adjust the text alignment as needed */
-  padding: 20px; /* Add padding as needed */
-  display: flex; /* Change the display to flex */
-  flex-direction: column; /* Stack child elements vertically */
+  display: flex;
+    justify-content: center;
+    margin-top: 1rem; 
 }
