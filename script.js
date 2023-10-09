@@ -36,3 +36,4 @@ function closeMenuOnClickOutside(event) {
     document.body.removeEventListener("click", closeMenuOnClickOutside);
   }
 }
+
