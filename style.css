@@ -321,4 +321,10 @@ section {
   width: 400px;
 }
 
-
+.text-container{
+  flex: 1; /* This makes the text-container take up the remaining space */
+  text-align: right; /* Adjust the text alignment as needed */
+  padding: 20px; /* Add padding as needed */
+  display: flex; /* Change the display to flex */
+  flex-direction: column; /* Stack child elements vertically */
+}
