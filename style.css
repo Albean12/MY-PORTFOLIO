@@ -381,14 +381,14 @@ h2{
 article {
   display: flex;
   width: 10rem;
-  flex-direction: column; /* Adjust to your layout */
+  flex-direction: column; 
   align-items: center; 
-  text-align: center; /* Center text */
+  text-align: center; 
   gap: 0.5rem;
 }
 .article img {
-  max-width: 100%; /* Ensure the image fits within the container */
-  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; 
+  height: auto; 
 }
 
 article .icon {
@@ -399,16 +399,22 @@ article .icon {
   color: #BE263D;
 }
 
-/* Projects Section */
 
-#project {
-  position: relative;
+
+/* Projects Section */
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust as needed */
+  align-items: stretch;
 }
 
-.color-container {
+
+.project-container {
   border-color: #BE263D;
   background: black;
 }
+
 
 .project-img {
   border-radius: 2rem;
@@ -422,6 +428,7 @@ article .icon {
 }
 
 .project-btn {
-  color:  white;
+  color: white;
   border-color: black;
+  
 }
