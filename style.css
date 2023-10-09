@@ -320,13 +320,14 @@ section {
 }
 
 .section-container {
-  gap: 1rem;
+  gap: 4rem;
   height: 80%;
 }
 
 .section__pic-container {
   height: 400px;
   width: 400px;
+  margin: auto 0;
 }
 
 .text-container{
@@ -340,11 +341,60 @@ h3{
 }
 
 h2{
-  color: white;
+  color: #BE263D;
 }
 
-.arrow{
+.arrow {
   position: absolute;
-  bottom: 2.5rem;
   right: -5rem;
+  bottom: 2.5rem;
+}
+
+/* Experience Section */
+
+#experience {
+  position: relative;
+}
+
+.experience-sub-title {
+  color: white;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+article {
+  display: flex;
+  width: 10rem;
+  flex-direction: column; /* Adjust to your layout */
+  align-items: center; 
+  text-align: center; /* Center text */
+  gap: 0.5rem;
+}
+.article img {
+  max-width: 100%; /* Ensure the image fits within the container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+article .icon {
+  cursor: default;
+}
+ 
+.experience-sub-title{
+  color: #BE263D;
 }
