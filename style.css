@@ -398,3 +398,30 @@ article .icon {
 .experience-sub-title{
   color: #BE263D;
 }
+
+/* Projects Section */
+
+#project {
+  position: relative;
+}
+
+.color-container {
+  border-color: #BE263D;
+  background: black;
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: #BE263D;
+}
+
+.project-btn {
+  color:  white;
+  border-color: black;
+}
