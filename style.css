@@ -342,3 +342,9 @@ h3{
 h2{
   color: white;
 }
+
+.arrow{
+  position: absolute;
+  bottom: 2.5rem;
+  right: -5rem;
+}
