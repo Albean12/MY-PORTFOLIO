@@ -53,87 +53,94 @@
 }
 
 @media screen and (max-width: 600px) {
-  #contact, footer {
-    height: 40vh;
-  }
 
-  #profile {
-    height: auto;
-    margin-bottom: 0;
+    #contact, footer {
+      height: 40vh;
+    }
+  
+    #profile {
+      height: auto;
+      margin-bottom: 0;
+    }
+  
+    #about {
+      text-align: center;
+      display: flex;
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    article {
+      font-size: 1rem;
+    }
+  
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+  
+    .about-containers {
+      text-align: center;
+      margin: 1rem;
+      padding: 1rem;
+    }
+  
+    .about-pic {
+      max-width: 100%;
+    }
+  
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+      justify-content: center;  
+    }
+  
+    .text-container {
+      text-align: center;
+    }
+  
+    .experience-details-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .experience-sub-title {
+      font-size: 1rem;
+    }
+  
+    .logo {
+      font-size: 1.5rem;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+  
+    .section__pic-container {
+      width: auto;
+      height: auto;
+      justify-content: center;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  
+    .text-container {
+      text-align: justify;
+      text-align: center;
+    }
+  
+    .section__text_p2 {
+      font-size: 1.25rem;
+    }
   }
-  #about{
-    text-align: center;
-    display: flex;
-  }
-  article {
-    font-size: 1rem;
-  }
-
-  footer nav {
-    height: fit-content;
-    margin-bottom: 2rem;
-  }
-
-  .about-containers {
-    text-align: center;
-    margin: 1rem; 
-    padding: 1rem;
-  }
-
-  .about-pic {
-    max-width: 100%;
-  }
-  .about-containers,
-  .contact-info-upper-container,
-  .btn-container {
-   flex-wrap: wrap;
-  }
-
-  .text-container {
-    text-align: center;
-  }
-
-  .experience-details-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-
-  }
-
-  .experience-sub-title {
-    font-size: 1rem;
-  }
-
-  .logo {
-    font-size: 1.5rem;
-  }
-
-  .nav-links {
-    flex-direction: column;
-    gap: 0.5rem;
-    text-align: center;
-  }
-
-  .section__pic-container {
-    width: auto;
-    height: 46vw;
-    justify-content: center;
-  }
-
-  .title {
-    font-size: 2rem;
-  }
-
-  .text-container {
-    text-align: justify;
-    text-align: center;
-  }
-
-  .section__text_p2 {
-    font-size: 1.25rem;
-  }
-}
+  
 
 @media screen and (max-width: 390px) {
   #contact, footer {
@@ -144,10 +151,14 @@
     height: auto;
     margin-bottom: 0;
   }
-  #about{
+
+  #about {
     text-align: center;
     display: flex;
+    flex-direction: column; 
+    align-items: center; 
   }
+
   article {
     font-size: 1rem;
   }
@@ -159,12 +170,19 @@
 
   .about-containers {
     text-align: center;
-    margin: 1rem; 
+    margin: 1rem;
     padding: 1rem;
   }
 
   .about-pic {
     max-width: 100%;
+  }
+
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+    justify-content: center;  
   }
 
   .text-container {
@@ -176,7 +194,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-
   }
 
   .experience-sub-title {
@@ -195,7 +212,7 @@
 
   .section__pic-container {
     width: auto;
-    height: 46vw;
+    height: auto;
     justify-content: center;
   }
 
@@ -211,6 +228,5 @@
   .section__text_p2 {
     font-size: 1.25rem;
   }
-
 
 }
