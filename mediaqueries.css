@@ -53,18 +53,16 @@
 }
 
 @media screen and (max-width: 600px) {
-  #contact, footer {
+  #contact,
+  footer {
     height: 40vh;
   }
 
   #profile {
-    height: auto;
+    height: 83vh;
     margin-bottom: 0;
   }
-  #about{
-    text-align: center;
-    display: flex;
-  }
+
   article {
     font-size: 1rem;
   }
@@ -74,30 +72,23 @@
     margin-bottom: 2rem;
   }
 
-  .about-containers {
-    text-align: center;
-    margin: 1rem; 
-    padding: 1rem;
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
   }
 
-  .about-pic {
-    max-width: 100%;
+  .contact-info-container {
+    margin: 0;
   }
 
-  .text-container {
-    text-align: center;
-  }
-
-  .experience-details-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
   }
 
   .experience-sub-title {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .logo {
@@ -128,9 +119,8 @@
   .section__text_p2 {
     font-size: 1.25rem;
   }
-
-
 }
+
 @media screen and (max-width: 390px) {
   #contact, footer {
     height: 40vh;
