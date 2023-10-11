@@ -53,16 +53,18 @@
 }
 
 @media screen and (max-width: 600px) {
-  #contact,
-  footer {
+  #contact, footer {
     height: 40vh;
   }
 
   #profile {
-    height: 83vh;
+    height: auto;
     margin-bottom: 0;
   }
-
+  #about{
+    text-align: center;
+    display: flex;
+  }
   article {
     font-size: 1rem;
   }
@@ -72,23 +74,35 @@
     margin-bottom: 2rem;
   }
 
+  .about-containers {
+    text-align: center;
+    margin: 1rem; 
+    padding: 1rem;
+  }
+
+  .about-pic {
+    max-width: 100%;
+  }
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
-    flex-wrap: wrap;
+   flex-wrap: wrap;
   }
 
-  .contact-info-container {
-    margin: 0;
+  .text-container {
+    text-align: center;
   }
 
-  .contact-info-container p,
-  .nav-links li a {
-    font-size: 1rem;
+  .experience-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
   }
 
   .experience-sub-title {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .logo {
