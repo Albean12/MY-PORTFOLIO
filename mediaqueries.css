@@ -7,6 +7,11 @@
   .about-containers {
     flex-wrap: wrap;
   }
+
+  .about-container{
+    flex-wrap: wrap;
+  }
+ 
 }
 
 @media screen and (max-width: 1200px) {
@@ -176,6 +181,7 @@
 
   .about-pic {
     max-width: 100%;
+    position: relative;
   }
 
   .about-containers,
@@ -223,10 +229,16 @@
   .text-container {
     text-align: justify;
     text-align: center;
+    font-size: 0.8rem; 
   }
 
   .section__text_p2 {
     font-size: 1.25rem;
   }
-
+  
 }
+
+
+
+
+
